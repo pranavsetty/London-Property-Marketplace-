@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.VBox?>
+
+<FlowPane alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" orientation="VERTICAL" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #262626;" xmlns="http://javafx.com/javafx/8.0.121">
+      <VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="378.0" prefWidth="270.0">
+            <ImageView fitHeight="361.0" fitWidth="444.0" pickOnBounds="true" preserveRatio="true">
+               <effect>
+                  <InnerShadow choke="0.25" color="#ff5a5f" height="191.22" radius="86.00999999999999" width="154.82">
+                     <input>
+                        <Blend />
+                     </input>
+                  </InnerShadow>
+               </effect>
+                  <Image url="@/Error2.png" />
+            </ImageView>
+            <Label maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="27.0" prefWidth="278.0" text="Woao! You entered a wrong value. Go back." textFill="WHITE">
+               <padding>
+                  <Insets top="10.0" />
+               </padding>
+            </Label>
+      </VBox>
+   <padding>
+      <Insets bottom="10.0" />
+   </padding>
+   <opaqueInsets>
+      <Insets />
+   </opaqueInsets>
+</FlowPane>
